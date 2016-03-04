@@ -126,7 +126,6 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                     <state key="normal" title="Retweet"/>
                                                     <connections>
-                                                        <action selector="onFavButton:" destination="wlV-8X-hF2" eventType="touchUpInside" id="jjv-7M-QEJ"/>
                                                         <action selector="onRetweetButton:" destination="wlV-8X-hF2" eventType="touchUpInside" id="fTt-jt-qUK"/>
                                                     </connections>
                                                 </button>
@@ -140,7 +139,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="tZD-RD-Nkx" secondAttribute="bottom" constant="1" id="WU7-dN-KaW"/>
                                                 <constraint firstItem="53K-0b-DFd" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="2" id="Xmj-HO-MM8"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="tZD-RD-Nkx" secondAttribute="bottom" constant="2" id="Xph-7E-62P"/>
-                                                <constraint firstItem="uC1-Ku-03o" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="-13" id="YeP-08-LMZ"/>
+                                                <constraint firstItem="uC1-Ku-03o" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="2" id="YeP-08-LMZ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="53K-0b-DFd" secondAttribute="trailing" constant="2" id="aNN-Pd-cfS"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="q8Q-JL-Eba" secondAttribute="bottom" constant="2" id="akR-H4-J4B"/>
                                                 <constraint firstItem="tZD-RD-Nkx" firstAttribute="leading" secondItem="bWt-JK-thD" secondAttribute="leading" constant="8" id="aqt-Qp-pdu"/>
