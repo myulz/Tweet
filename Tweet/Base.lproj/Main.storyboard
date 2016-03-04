@@ -119,7 +119,7 @@
                                                     </variation>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC1-Ku-03o">
-                                                    <rect key="frame" x="233" y="-5" width="40" height="24"/>
+                                                    <rect key="frame" x="207" y="-5" width="40" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="n7p-aE-D7a"/>
                                                     </constraints>
@@ -140,7 +140,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="tZD-RD-Nkx" secondAttribute="bottom" constant="1" id="WU7-dN-KaW"/>
                                                 <constraint firstItem="53K-0b-DFd" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="2" id="Xmj-HO-MM8"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="tZD-RD-Nkx" secondAttribute="bottom" constant="2" id="Xph-7E-62P"/>
-                                                <constraint firstItem="uC1-Ku-03o" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="2" id="YeP-08-LMZ"/>
+                                                <constraint firstItem="uC1-Ku-03o" firstAttribute="top" secondItem="bWt-JK-thD" secondAttribute="topMargin" constant="-13" id="YeP-08-LMZ"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="53K-0b-DFd" secondAttribute="trailing" constant="2" id="aNN-Pd-cfS"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="q8Q-JL-Eba" secondAttribute="bottom" constant="2" id="akR-H4-J4B"/>
                                                 <constraint firstItem="tZD-RD-Nkx" firstAttribute="leading" secondItem="bWt-JK-thD" secondAttribute="leading" constant="8" id="aqt-Qp-pdu"/>
@@ -154,7 +154,7 @@
                                                 <constraint firstItem="tZD-RD-Nkx" firstAttribute="top" secondItem="hQz-5N-b48" secondAttribute="bottom" constant="8" id="rPQ-d1-Vin"/>
                                                 <constraint firstItem="q8Q-JL-Eba" firstAttribute="top" secondItem="gLa-UV-STx" secondAttribute="bottom" constant="1" id="uGJ-qm-aVF"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="q8Q-JL-Eba" secondAttribute="bottom" constant="2" id="wVV-Az-Vm9"/>
-                                                <constraint firstItem="53K-0b-DFd" firstAttribute="leading" secondItem="uC1-Ku-03o" secondAttribute="trailing" constant="2" id="yP7-oL-tRv"/>
+                                                <constraint firstItem="53K-0b-DFd" firstAttribute="leading" secondItem="uC1-Ku-03o" secondAttribute="trailing" constant="34" id="yP7-oL-tRv"/>
                                                 <constraint firstItem="hQz-5N-b48" firstAttribute="top" secondItem="tZD-RD-Nkx" secondAttribute="bottom" constant="2" id="zzk-dM-iZD"/>
                                             </constraints>
                                             <variation key="default">

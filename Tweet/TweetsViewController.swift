@@ -74,11 +74,30 @@ class TweetsViewController: UIViewController,UITableViewDelegate, UITableViewDat
    
     @IBAction func onRetweetButton(sender: AnyObject) {
         print("retweeted")
+        let button = sender as! UIButton
+        let view = button.superview!
+        let cell = view.superview as! TweetTableViewCell
+        
+        let indexPath = tableView.indexPathForCell(cell)
+        
+        let tweet = tweets[indexPath!.row]
+        
+        tweet.retweetCount += 1
+        print(tweet.retweetCount);
+        
     }
     
     @IBAction func onFavButton(sender: AnyObject) {
         print("Favorited")
+        let button = sender as! UIButton
+        let view = button.superview!
+        let cell = view.superview as! TweetTableViewCell
         
+        let indexPath = tableView.indexPathForCell(cell)
+        
+        let tweet = tweets[indexPath!.row]
+        tweet.favoritesCount += 1
+        print(tweet.favoritesCount);
     }
     
    
