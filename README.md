@@ -44,9 +44,9 @@ Describe any challenges encountered while building the app.
 
 
 
-# Project 5 - *Name of App Here*
+# Project 5 - El tweeto
 
-Time spent: **X** hours spent in total
+Time spent: 6? hours spent in total
 
 ## User Stories
 
