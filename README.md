@@ -44,7 +44,7 @@ Describe any challenges encountered while building the app.
 
 
 
-# Project 5 - El tweeto
+# Project 5 - tweet
 
 Time spent: 6? hours spent in total
 
